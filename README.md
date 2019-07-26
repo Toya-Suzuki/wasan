@@ -24,5 +24,15 @@ scipy 1.10
 これには４つのパラメータが必要です。  
 minLineLength・・・検出する直線の最小の長さを表し、この値より短い線分は検出されなくなります。  
 maxLineGap・・・二つの線分を一つの直線とみなす時に許容される最大の長さを表す。この値より小さいギャップを持つ二本の直線は一つの直線とみなされます。  
-maxGapToLinkLines・・・特に長い直線を検出するために設定します。
+maxGapToLinkLines・・・特に長い直線を検出するために設定します。　　
 verticalTol・・・どこまでを縦線とみなすかを決める値になり、数値を大きくすればするほど、斜めや横の線を検出する様になります。  
+
+## 引用したコード
+
+1. blobDetector.py  
+4つの異なる方法で漢字の検出をします。以下引用元  
+https://github.com/TheLaueLab/blob-detection
+
+2. classify.py  
+CNNを用いて和算の漢字を分類します。以下引用元  
+https://github.com/KyotoSunshine/CNN-for-handwritten-kanji
