@@ -19,8 +19,8 @@ fi
 if [[ $whatToDo == *"c"* ]]; then
 classif=1
 fi
-if [[ $whatToDo == *"e"* ]]; then
-evaluate=1
+if [[ $whatToDo == *"c"* ]]; then
+combine=1
 fi
 if [[ $whatToDo == *"i"* ]]; then
 imshow=1
@@ -105,7 +105,7 @@ for file in $fileList
 		fi
 
 
-		if [[ $evaluate = 1 ]];then
+		if [[ $combine = 1 ]];then
 			#Activate python3 environment
 			source activate wasan3
 
