@@ -27,6 +27,13 @@ maxLineGap・・・二つの線分を一つの直線とみなす時に許容さ�
 maxGapToLinkLines・・・特に長い直線を検出するために設定します。  
 verticalTol・・・どこまでを縦線とみなすかを決める値になり、数値を大きくすればするほど、斜めや横の線を検出する様になります。  
 
+5. position_class_combine1.py
+
+6. image-show.py
+
+7. automaticLayer.py
+
+8. KanjiSeparatorExperiment1.sh
 ## 引用したコード
 
 1. blobDetector.py  
