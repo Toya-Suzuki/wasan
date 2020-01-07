@@ -27,16 +27,16 @@ maxLineGap・・・二つの線分を一つの直線とみなす時に許容さ�
 maxGapToLinkLines・・・特に長い直線を検出するために設定します。  
 verticalTol・・・どこまでを縦線とみなすかを決める値になり、数値を大きくすればするほど、斜めや横の線を検出する様になります。  
 
-5. position_class_combine1.py　
+5. position_class_combine1.py  
 検出した文字の位置と分類時のクラスをテキストファイルに書き込みます
 
-6. image-show.py　
+6. image-show.py  
 5のテキストファイルを利用して、指定した文字を表示し、分類の正誤を確認できます。それと同時に分類の正誤の情報をテキストファイルに書き込みます。
 
-7. automaticLayer.py　
+7. automaticLayer.py  
 6のテキストファイルを利用して、正しく分類された文字の位置を黒く囲んだ和算のページを生成します。
 
-8. KanjiSeparatorExperiment1.sh　
+8. KanjiSeparatorExperiment1.sh  
 degree1.py blobDetector.py classify.py position_class_combine1.py image-show.py
 をオプションを指定してまとめて動かす事が出来ます
 
